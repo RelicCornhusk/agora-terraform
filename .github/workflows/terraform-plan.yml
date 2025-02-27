@@ -6,7 +6,7 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: "vitorcorp"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "terraform-agora"
+  TF_WORKSPACE: "agora-terraform"
   CONFIG_DIRECTORY: "./"
 
 jobs:
